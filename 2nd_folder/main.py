@@ -8,8 +8,8 @@ def main() -> None:
     if not topic:
         topic = input("Research topic: ").strip()
 
-    out_path = run_paper_reader(topic)
-    print(f"Done. Review saved to {out_path}")
+    run_paper_reader(topic)
+    print("Done.")
 
 
 if __name__ == "__main__":
